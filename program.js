@@ -15,6 +15,19 @@
 // console.log(`[${inputs}] becomes "${result}"`);
 
 
+// Challenge #4
+
+
+ 
+//  const foot = {
+//         kick:  () =>{
+//             this.yelp = "Ouch!";
+//             setImmediate( () => {
+//                 console.log(this.yelp);
+//             });
+//         }
+//     };
+//     foot.kick();
 // Challenge #5 Destructuring
 
 
@@ -34,8 +47,18 @@
 
 // Challenge 7 Rest
 
-module.exports = function average(...numbers){
-    var result = 0;
-    numbers.forEach( value => result += value);
-    return result/numbers.length;
-}
+// module.exports = function average(...numbers){
+//     var result = 0;
+//     numbers.forEach( value => result += value);
+//     return result/numbers.length;
+// }
+
+// Challenge 8 
+
+// module.exports = (...args) => {
+   
+//     let sum = args.reduce((lowerBound = 0, uperBound = 1) =>  lowerBound + uperBound);
+   
+//     return sum/args.length;
+// }
+
