@@ -55,10 +55,10 @@
 
 // Challenge 8 
 
-// module.exports = (...args) => {
+module.exports = (...args) => {
    
-//     let sum = args.reduce((lowerBound = 0, uperBound = 1) =>  lowerBound + uperBound);
+    let sum = args.reduce((lowerBound = 0, uperBound = 1) =>  lowerBound + uperBound);
    
-//     return sum/args.length;
-// }
+    return sum/args.length;
+}
 
